@@ -1,0 +1,27 @@
+@font-face {
+    font-family:'Loura' ;
+    src: url(/assets/fonts/LouraRegular.otf);
+}
+
+html {
+    font-family: 'loura';
+}
+
+/* Définition des thèmes de chakra */
+:root {
+    --chakra-root: #FF5234;
+    --chakra-sacral: #FFA500;
+    --chakra-solar-plexus: #F1D91F;
+    --chakra-heart: #53B243;
+    --chakra-throat: #00C0D0;
+    --chakra-third-eye: #1774AD;
+    --chakra-crown: #8B5E8F;
+    /* Couleur par défaut */
+    --chakra-selected: var(--chakra-root);
+  }
+  
+  /* Utilisation de la couleur sélectionnée pour styliser les éléments */
+  body {
+    background-color: var(--chakra-selected);
+  }
+  
