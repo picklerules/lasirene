@@ -2,9 +2,17 @@
     font-family:'Loura' ;
     src: url(/assets/fonts/LouraRegular.otf);
 }
+@font-face {
+    font-family: 'Moonbeams', arial, sans-serif;
+    src: url(/assets/fonts/Moonbeams\ Regular.otf);
+}
+@font-face {
+    font-family: 'JustCosmic';
+    src: url(/assets/fonts/Just\ Cosmic.otf);
+}
 
-html {
-    font-family: 'loura';
+nav {
+    font-family: 'JustCosmic';
 }
 
 /* Définition des thèmes de chakra */
@@ -20,8 +28,78 @@ html {
     --chakra-selected: var(--chakra-root);
   }
   
-  /* Utilisation de la couleur sélectionnée pour styliser les éléments */
+
   body {
-    background-color: var(--chakra-selected);
+    background-color: white;
+    font-family: 'Moonbeams';
+    font-size: 1.5rem;
   }
   
+
+  /*menu navigation*/
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--chakra-selected); 
+    color: white;
+    padding: 20px 10px; /* Augmentation de la hauteur */
+  }
+  
+  #logo {
+    width: 50px; /* Ajustez la taille selon votre logo */
+    margin-right: 15px;
+  }
+  
+  nav h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    font-family: 'Loura';
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    letter-spacing: 1px;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  #chakra-bar {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  #chakra-bar button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #chakra-bar button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Services */
+.service {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 100px;
+  }
+  
+  .service h3 {
+    margin: 10px 0;
+  }
