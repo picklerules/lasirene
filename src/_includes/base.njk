@@ -9,9 +9,17 @@
     <title> {{ title }} </title>
 </head>
 <body>
+
     {% include "nav.njk" %}
-    
-    
-    {{ content | safe }}
+
+
+
+    <main>
+        {{ content | safe }}
+        
+    </main>
+
+        {% include "footer.njk" %}
 </body>
+
 </html>

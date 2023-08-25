@@ -1,0 +1,58 @@
+  /*menu navigation*/
+
+
+nav {
+    font-family: 'JustCosmic';
+}
+
+
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--chakra-selected); 
+    color: white;
+    padding: 40px 10px; /* Augmentation de la hauteur */
+  }
+  
+  #logo {
+    width: 50px; /* Ajustez la taille selon votre logo */
+    margin-right: 15px;
+  }
+  
+  nav h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    font-family: 'Loura';
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    letter-spacing: 1px;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  #chakra-bar {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  #chakra-bar button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #chakra-bar button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }

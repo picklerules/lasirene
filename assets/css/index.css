@@ -1,0 +1,18 @@
+
+  
+  /* Services */
+  .service {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 100px;
+  }
+  
+  .service h3 {
+    margin: 10px 0;
+  }
+

@@ -1,0 +1,39 @@
+@font-face {
+    font-family:'Loura' ;
+    src: url(/assets/fonts/LouraRegular.otf);
+}
+@font-face {
+    font-family: 'Moonbeams', arial, sans-serif;
+    src: url(/assets/fonts/Moonbeams\ Regular.otf);
+}
+@font-face {
+    font-family: 'JustCosmic';
+    src: url(/assets/fonts/Just\ Cosmic.otf);
+}
+
+/* Définition des thèmes de chakra */
+:root {
+    --chakra-root: #FF5234;
+    --chakra-sacral: #FFA500;
+    --chakra-solar-plexus: #F1D91F;
+    --chakra-heart: #53B243;
+    --chakra-throat: #00C0D0;
+    --chakra-third-eye: #1774AD;
+    --chakra-crown: #8B5E8F;
+    /* Couleur par défaut */
+    --chakra-selected: var(--chakra-root);
+  }
+  
+
+body {
+    background-color: white;
+    font-family: 'Moonbeams';
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
