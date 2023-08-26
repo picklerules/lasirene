@@ -4,6 +4,8 @@
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 
 /* Conteneur général pour les services */
@@ -49,16 +51,6 @@ h1 {
     text-align: center;
 }
 
-/* Style pour le conteneur de l'image du service */
-/* .service-image-container {
-    width: 45%;
-} */
-
-/* Style pour l'image du service */
-/* .service-image {
-    max-width: 100%;
-    height: auto;
-} */
 
 /* Conteneur de l'image */
 .service-image-container {

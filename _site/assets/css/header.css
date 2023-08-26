@@ -2,7 +2,7 @@
 
 
 nav {
-    font-family: 'JustCosmic';
+    font-family: 'Loura';
 }
 
 
@@ -55,4 +55,10 @@ nav {
   
   #chakra-bar button:hover {
     background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Style pour la page active dans la navigation */
+  .active {
+    background-color: rgba(255, 255, 255, 0.3); /* Couleur d'arrière-plan pour la page active */
+    border-radius: 5px; /* Coins arrondis */
   }
