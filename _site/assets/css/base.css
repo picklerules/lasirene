@@ -14,19 +14,26 @@
 /* Définition des thèmes de chakra */
 :root {
     --chakra-root: #FF5234;
+    --chakra-root-bg: #FFC1B3; /* Nouveau */
     --chakra-sacral: #FFA500;
+    --chakra-sacral-bg: #FFDAB9; /* Nouveau */
     --chakra-solar-plexus: #F1D91F;
+    --chakra-solar-plexus-bg: #F9F0A3; /* Nouveau */
     --chakra-heart: #53B243;
+    --chakra-heart-bg: #A8E6A1; /* Nouveau */
     --chakra-throat: #00C0D0;
+    --chakra-throat-bg: #AEEEEE; /* Nouveau */
     --chakra-third-eye: #1774AD;
+    --chakra-third-eye-bg: #AEDFF7; /* Nouveau */
     --chakra-crown: #8B5E8F;
+    --chakra-crown-bg: #D1BBD7; /* Nouveau */
     /* Couleur par défaut */
     --chakra-selected: var(--chakra-root);
-  }
-  
+    --chakra-selected-bg: var(--chakra-root-bg); /* Nouveau */
+}
 
 body {
-    background-color: white;
+    background-color: var(--chakra-selected-bg); /* Modifié */
     font-family: 'Moonbeams';
     font-size: 1.5rem;
     display: flex;

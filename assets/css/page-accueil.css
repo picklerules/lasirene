@@ -1,0 +1,56 @@
+/* Services Grid */
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.service {
+    position: relative;
+    text-align: center;
+}
+
+.service-image {
+    background-size: cover;  /* Ajuste l'image pour couvrir la zone de contenu */
+    background-position: center;  /* Centre l'image */
+    height: 200px;  /* Hauteur fixe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);  /* 2 colonnes pour les écrans plus petits */
+    }
+}
+
+a {
+    text-decoration: none;
+}
+/* Introduction */
+#introduction {
+    margin: 70px 130px 0 10px;
+    background-color: rgba(255, 239, 239, 0.457); 
+    padding: 40px;
+    border-radius: 5px; 
+}
+
+#introduction h1 {
+    text-align: center; 
+}

@@ -1,6 +1,44 @@
 [
-    { "id": "service1", "name": "Service 1", "description": "Description du service 1..." },
-    { "id": "service2", "name": "Service 2", "description": "Description du service 2..." }
-
-  ]
-  
+  {
+      "id": "service1",
+      "name": "Tarot",
+      "image": "./assets/images/tarot.jpg",
+      "servicePageImage": "../assets/images/tarot_service.jpg",
+      "description": "Découvrez ce que l'avenir vous réserve avec nos lectures de tarot personnalisées."
+  },
+  {
+      "id": "service2",
+      "name": "Reiki",
+      "image": "./assets/images/reiki.jpg",
+      "servicePageImage": "../assets/images/reiki_service.jpg",
+      "description": "Harmonisez votre énergie et favorisez la relaxation et la guérison avec nos traitements de Reiki."
+  },
+  {
+      "id": "service3",
+      "name": "Méditation guidée",
+      "image": "./assets/images/meditation.jpg",
+      "servicePageImage": "../assets/images/meditation_service.jpg",
+      "description": "Trouvez la tranquillité d'esprit et la conscience de soi avec nos séances de méditation guidée."
+  },
+  {
+      "id": "service4",
+      "name": "Thérapie par les cristaux",
+      "image": "./assets/images/cristaux.jpg",
+      "servicePageImage": "../assets/images/cristaux_service.jpg",
+      "description": "Équilibrez vos chakras et revitalisez votre bien-être spirituel avec la thérapie par les cristaux."
+  },
+  {
+      "id": "service5",
+      "name": "Yoga spirituel",
+      "image": "./assets/images/yoga.jpg",
+      "servicePageImage": "../assets/images/yoga_service.jpg",
+      "description": "Renforcez votre corps et votre esprit avec nos cours de yoga spirituel."
+  },
+  {
+      "id": "service6",
+      "name": "Lecture d'aura",
+      "image": "./assets/images/aura.jpg",
+      "servicePageImage": "../assets/images/aura_service.jpg",
+      "description": "Découvrez les couleurs de votre aura et ce qu'elles révèlent sur vous."
+  }
+]

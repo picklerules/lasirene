@@ -3,5 +3,19 @@ layout: base.njk
 title: Services
 ---
 
-
 <h1>Services</h1>
+
+<div id="service-section">
+    {% for service in services %}
+    <div class="service-item {% if loop.index is odd %}reverse{% endif %}">
+        <div class="service-description">
+            <h2>{{ service.name }}</h2>
+            <p>{{ service.description }}</p>
+            <a href="#" class="btn">Réservez maintenant</a>
+        </div>
+        <div class="service-image-container">
+            <img src="{{ service.servicePageImage }}" alt="{{ service.name }}" class="service-image">
+        </div>
+    </div>
+    {% endfor %}
+</div>

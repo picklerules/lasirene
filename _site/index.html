@@ -35,7 +35,7 @@
     </div>
     <h1>LA SIRÈNE</h1>
     <a href="/">ACCUEIL</a>
-    <a href="/">À PROPOS</a>
+    <a href="#">À PROPOS</a>
     <a href="/services">SERVICES</a>
     <div id="chakra-bar">
         <button onclick="changeTheme('root')">Racine</button>
@@ -63,36 +63,77 @@
 <!-- Services -->
 <section id="services">
     <h2>Nos Services</h2>
-    
-    <div class="service">
-        <a href="/services#service1">
-            <img src="" alt="Service 1">
-            <h3>Service 1</h3>
-        </a>
-        <p>Description du service 1...</p>
+    <div class="services-grid">
+        
+        <div class="service">
+            <a href="/services#service1">
+                <div class="service-image" style="background-image: url('./assets/images/tarot.jpg');">
+                    <h3>Tarot</h3>
+                </div>
+            </a>
+            <p>Découvrez ce que l&#39;avenir vous réserve avec nos lectures de tarot personnalisées.</p>
+        </div>
+        
+        <div class="service">
+            <a href="/services#service2">
+                <div class="service-image" style="background-image: url('./assets/images/reiki.jpg');">
+                    <h3>Reiki</h3>
+                </div>
+            </a>
+            <p>Harmonisez votre énergie et favorisez la relaxation et la guérison avec nos traitements de Reiki.</p>
+        </div>
+        
+        <div class="service">
+            <a href="/services#service3">
+                <div class="service-image" style="background-image: url('./assets/images/meditation.jpg');">
+                    <h3>Méditation guidée</h3>
+                </div>
+            </a>
+            <p>Trouvez la tranquillité d&#39;esprit et la conscience de soi avec nos séances de méditation guidée.</p>
+        </div>
+        
+        <div class="service">
+            <a href="/services#service4">
+                <div class="service-image" style="background-image: url('./assets/images/cristaux.jpg');">
+                    <h3>Thérapie par les cristaux</h3>
+                </div>
+            </a>
+            <p>Équilibrez vos chakras et revitalisez votre bien-être spirituel avec la thérapie par les cristaux.</p>
+        </div>
+        
+        <div class="service">
+            <a href="/services#service5">
+                <div class="service-image" style="background-image: url('./assets/images/yoga.jpg');">
+                    <h3>Yoga spirituel</h3>
+                </div>
+            </a>
+            <p>Renforcez votre corps et votre esprit avec nos cours de yoga spirituel.</p>
+        </div>
+        
+        <div class="service">
+            <a href="/services#service6">
+                <div class="service-image" style="background-image: url('./assets/images/aura.jpg');">
+                    <h3>Lecture d&#39;aura</h3>
+                </div>
+            </a>
+            <p>Découvrez les couleurs de votre aura et ce qu&#39;elles révèlent sur vous.</p>
+        </div>
+        
     </div>
-    
-    <div class="service">
-        <a href="/services#service2">
-            <img src="" alt="Service 2">
-            <h3>Service 2</h3>
-        </a>
-        <p>Description du service 2...</p>
-    </div>
-    
 </section>
 
         
     </main>
 
         <footer>
-    <div>
+  <div class="footer-grid">
+    <div class="links">
             <a href="/">Accueil</a>
             <a href="/">À propos</a>
             <a href="/services">Services</a>
             <a href="/">Contact</a>
     </div>
-    <div>
+    <div class="icons">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
             <path d="M48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 35.9789 8.77641 45.908 20.25 47.7084V30.9375H14.1562V24H20.25V18.7125C20.25 12.6975 23.8331 9.375 29.3152 9.375C31.9402 9.375 34.6875 9.84375 34.6875 9.84375V15.75H31.6613C28.68 15.75 27.75 17.6002 27.75 19.5V24H34.4062L33.3422 30.9375H27.75V47.7084C39.2236 45.908 48 35.9789 48 24Z" fill="white"/>
           </svg>
@@ -112,7 +153,7 @@
             <path d="M29.2 48C22 48 16.6 44.3 16.6 35.4V21.2H10V13.5C17.2 11.6 20.2 5.4 20.6 0H28.1V12.2H36.8V21.2H28.1V33.6C28.1 37.3 30 38.6 33 38.6H37.2V48H29.2Z" fill="white"/>
           </svg>
     </div>
-                
+  </div>              
 
 </footer>
 
