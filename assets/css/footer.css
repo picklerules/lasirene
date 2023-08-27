@@ -1,6 +1,4 @@
-  /*footer*/
-
-  footer {
+footer {
     flex-shrink: 0;
     background-color: var(--chakra-selected);
     color: white;
@@ -13,18 +11,4 @@ footer > div {
     max-width: 800px;
     margin: auto;
 
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-    margin: 0 10px;
-    display: flex; /* Ajouté */
-    flex-direction: column; /* Ajouté */
-    display: block; /* Ajouté pour s'assurer que chaque lien est sur une nouvelle ligne */
-}
-
-
-footer a:hover {
-    text-decoration: underline;
 }

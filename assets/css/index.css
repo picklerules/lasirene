@@ -1,18 +1,100 @@
+.service {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
 
-  
-  /* Services */
-  .service {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .service img {
-    width: 100px;
-  }
-  
-  .service h3 {
-    margin: 10px 0;
-  }
+.service img {
+  width: 100px;
+}
 
+.service h3 {
+  margin: 10px 0;
+}
+
+/* Services Grid */
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.service {
+  position: relative;
+  text-align: center;
+}
+
+.service-image {
+  background-size: cover;  
+  background-position: center;  
+  height: 200px;  
+  min-height: 200px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.service h3 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+}
+
+.service h3:hover {
+  background-color: var(--chakra-selected); 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-grid {
+      grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Introduction */
+.introduction {
+  margin: 70px 130px 0 130px;
+  background-color: rgba(255, 239, 239, 0.457); 
+  padding: 40px;
+  border-radius: 5px; 
+}
+
+
+/* Témoignages */
+.testimonials {
+  margin: 70px 130px 70px 130px;
+  background-color: rgba(255, 239, 239, 0.457); 
+  padding: 40px;
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0 0 1rem 0;
+  text-align: left;
+}
+
+cite {
+  font-size: smaller;
+  display: block;
+  text-align: right;
+}

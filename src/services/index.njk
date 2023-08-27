@@ -3,9 +3,9 @@ layout: base.njk
 title: Services
 ---
 
-<h1>Services</h1>
+<h1 class="service-title">Services</h1>
 
-<div id="service-section">
+<div class="service-section">
     {% for service in services %}
     <div class="service-item {% if loop.index is odd %}reverse{% endif %}" id="{{ service.id }}">
         <div class="service-description">

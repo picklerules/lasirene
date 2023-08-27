@@ -1,5 +1,5 @@
 function changeTheme(chakra) {
-  // Mapping des noms de chakra aux variables CSS pour les couleurs principales
+ 
   const chakraColors = {
     'root': '--chakra-root',
     'sacral': '--chakra-sacral',
@@ -10,7 +10,6 @@ function changeTheme(chakra) {
     'crown': '--chakra-crown'
   };
 
-  // Mapping des noms de chakra aux variables CSS pour les couleurs d'arrière-plan
   const chakraBgColors = {
     'root': '--chakra-root-bg',
     'sacral': '--chakra-sacral-bg',
@@ -21,11 +20,20 @@ function changeTheme(chakra) {
     'crown': '--chakra-crown-bg'
   };
 
-  // Récupération des couleurs correspondantes
   const selectedColor = chakraColors[chakra];
   const selectedBgColor = chakraBgColors[chakra];
 
-  // Application des couleurs sélectionnées
   document.documentElement.style.setProperty('--chakra-selected', `var(${selectedColor})`);
   document.documentElement.style.setProperty('--chakra-selected-bg', `var(${selectedBgColor})`);
+
+  // Sauvegarde le thème dans le localStorage
+  localStorage.setItem('selectedChakra', chakra);
 }
+
+// Applique le thème sauvegardé au chargement de la page
+window.addEventListener('load', () => {
+  const savedChakra = localStorage.getItem('selectedChakra');
+  if (savedChakra) {
+    changeTheme(savedChakra);
+  }
+});

@@ -1,5 +1,5 @@
 <nav >
-    <div id="logo">
+    <div class="logo">
         {% include "logo.njk" %}
     </div>
     <h1>LA SIRÈNE</h1>
@@ -7,13 +7,27 @@
     <a href="/">ACCUEIL</a>
     <a href="#">À PROPOS</a>
     <a href="/services">SERVICES</a>
-    <div id="chakra-bar">
-        <button onclick="changeTheme('root')">Racine</button>
-        <button onclick="changeTheme('sacral')">Sacré</button>
-        <button onclick="changeTheme('solar-plexus')">Plexus Solaire</button>
-        <button onclick="changeTheme('heart')">Cœur</button>
-        <button onclick="changeTheme('throat')">Gorge</button>
-        <button onclick="changeTheme('third-eye')">Troisième Œil</button>
-        <button onclick="changeTheme('crown')">Couronne</button>
+    <div class="chakra-bar">
+        <button onclick="changeTheme('root')">
+            <img src="../assets/images/root-chakra.png" alt="Chakra Racine">
+          </button>
+          <button onclick="changeTheme('sacral')">
+            <img src="../assets/images/sacre-chakra.png" alt="Chakra Sacré">
+          </button>
+          <button onclick="changeTheme('solar-plexus')">
+            <img src="../assets/images/solaire-chakra.png" alt="Chakra plexus solaire">
+          </button>
+          <button onclick="changeTheme('heart')">
+            <img src="../assets/images/coeur-chakra.png" alt="Chakra coeur">
+          </button>
+          <button onclick="changeTheme('throat')">
+            <img src="../assets/images/gorge-chakra.png" alt="Chakra gorge">
+          </button>
+          <button onclick="changeTheme('third-eye')">
+            <img src="../assets/images/thirdeye-chakra.png" alt="Chakra troisième oeil">
+          </button>
+          <button onclick="changeTheme('crown')">
+            <img src="../assets/images/crown-chakra.png" alt="Chakra courronne">
+          </button>
       </div>      
 </nav>
