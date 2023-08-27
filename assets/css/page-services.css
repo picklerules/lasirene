@@ -3,6 +3,7 @@ h1 {
     margin-bottom: 20px;
     font-size: 4rem;
     text-transform: uppercase;
+    font-family: 'JustCosmic';
 }
 
 .service-section {
@@ -23,6 +24,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
 }
+
 /*Inverser les service*/
 .service-item.reverse {
     flex-direction: row-reverse;
@@ -55,7 +57,7 @@ h1 {
     object-position: center;  
 }
 
-/* Style pour le bouton "Réservez maintenant" */
+/* Bouton "Réservez maintenant" */
 .btn {
     display: block;
     margin: 20px auto;

@@ -19,7 +19,7 @@ nav h1 {
   font-size: 36px;
   letter-spacing: 1px;
   margin: 0 20px;
-  font-family: 'Loura';
+  font-family: 'JustCosmic';
 }
 
 nav a {
@@ -63,4 +63,9 @@ nav a:hover {
   .logo {
       width: 30px;
   }
+  .chakra-bar img {
+    width: 20px;
+    height: 20px;
 }
+}
+
